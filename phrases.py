@@ -27,3 +27,23 @@ frontporch_chair2 = "You try again. This time you're ready for the movement. Loo
 frontporch_chair3 = "You hop on the chair and wiggle around, making it rock back and forth wildly. You're such a crazy little squirrel!"
 
 frontporch_dig1 = "You lean into the edge of the pot and begin digging, hoping to find a nice big nut! Suddenly, the front door flies open and a big, hairless monster comes right for you. It's shouting something at you. You are terrified and run back to your nest."
+
+flowerbed1 = ""
+flowerbed2 = ""
+flowerbed3 = ""
+flowerbed4 = ""
+flowerbed5 = ""
+flowerbed6 = ""
+flowerbed7 = ""
+flowerbed8 = ""
+
+bushes_welcome = ""
+bushes_options = "You see a nut peeking out of the chipmunk nest. Do you want to try to steal it? Yes or No?
+
+backyard_welcome = ""
+backyard_options = ""
+
+tree2_welcome = ""
+tree2_options = ""
+
+tree2_climb1 = ""
