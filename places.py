@@ -243,6 +243,165 @@ class Tree3(object):
             actions.NotAChoice(action)
             return 'flower_bed'
 
+class NeighborTree(object):
+    def enter(self, stash):
+        print("Stuff")
+        print("options")
+        
+        action = input("\n>> ")
+
+        if 'climb' in action:
+            pass
+            #you find a nut!
+        elif 'dig' in action:
+            pass
+            #you find a nut!
+            return 'front_porch'
+        elif 'search' in action:
+            print("The floor is dirty! They need to sweep out here!")
+            return 'front_porch'
+        elif 'check' in action or 'stash' in action:
+            actions.CheckStash(stash)
+        else:
+            actions.NotAChoice(action)
+            return 'flower_bed'
+  
+class NeighborBackyard(object):
+    def enter(self, stash):
+        print("Stuff")
+        print("options")
+        
+        action = input("\n>> ")
+
+        if 'climb' in action:
+            pass
+            #you find a nut!
+        elif 'dig' in action:
+            pass
+            #you find a nut!
+            return 'front_porch'
+        elif 'search' in action:
+            print("The floor is dirty! They need to sweep out here!")
+            return 'front_porch'
+        elif 'check' in action or 'stash' in action:
+            actions.CheckStash(stash)
+        else:
+            actions.NotAChoice(action)
+            return 'flower_bed'
+        
+class NeighborFlowerbed(self, stash):
+        print("Stuff")
+        print("options")
+        
+        action = input("\n>> ")
+
+        if 'climb' in action:
+            pass
+            #you find a nut!
+        elif 'dig' in action:
+            pass
+            #you find a nut!
+            return 'front_porch'
+        elif 'search' in action:
+            print("The floor is dirty! They need to sweep out here!")
+            return 'front_porch'
+        elif 'check' in action or 'stash' in action:
+            actions.CheckStash(stash)
+        else:
+            actions.NotAChoice(action)
+            return 'flower_bed'
+        
+class NeighborDeck(self, stash):
+        print("Stuff")
+        print("options")
+        
+        action = input("\n>> ")
+
+        if 'climb' in action:
+            pass
+            #you find a nut!
+        elif 'dig' in action:
+            pass
+            #you find a nut!
+            return 'front_porch'
+        elif 'search' in action:
+            print("The floor is dirty! They need to sweep out here!")
+            return 'front_porch'
+        elif 'check' in action or 'stash' in action:
+            actions.CheckStash(stash)
+        else:
+            actions.NotAChoice(action)
+            return 'flower_bed'        
+
+class NeighborFrontYard(object):
+    def enter(self, stash):
+        print("Stuff")
+        print("options")
+        
+        action = input("\n>> ")
+
+        if 'climb' in action:
+            pass
+            #you find a nut!
+        elif 'dig' in action:
+            pass
+            #you find a nut!
+            return 'front_porch'
+        elif 'search' in action:
+            print("The floor is dirty! They need to sweep out here!")
+            return 'front_porch'
+        elif 'check' in action or 'stash' in action:
+            actions.CheckStash(stash)
+        else:
+            actions.NotAChoice(action)
+            return 'flower_bed'        
+
+class NeighborBushes(object):
+    def enter(self, stash):
+        print("Stuff")
+        print("options")
+        
+        action = input("\n>> ")
+
+        if 'climb' in action:
+            pass
+            #you find a nut!
+        elif 'dig' in action:
+            pass
+            #you find a nut!
+            return 'front_porch'
+        elif 'search' in action:
+            print("The floor is dirty! They need to sweep out here!")
+            return 'front_porch'
+        elif 'check' in action or 'stash' in action:
+            actions.CheckStash(stash)
+        else:
+            actions.NotAChoice(action)
+            return 'flower_bed'        
+
+class NeighborLawn(object):
+    def enter(self, stash):
+        print("Stuff")
+        print("options")
+        
+        action = input("\n>> ")
+
+        if 'climb' in action:
+            pass
+            #you find a nut!
+        elif 'dig' in action:
+            pass
+            #you find a nut!
+            return 'front_porch'
+        elif 'search' in action:
+            print("The floor is dirty! They need to sweep out here!")
+            return 'front_porch'
+        elif 'check' in action or 'stash' in action:
+            actions.CheckStash(stash)
+        else:
+            actions.NotAChoice(action)
+            return 'flower_bed'        
+        
 class Finished(object):
     def enter(self):
         print("Congratulations! You have all the nuts you need for the winter now!")
