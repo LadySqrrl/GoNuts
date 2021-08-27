@@ -20,8 +20,10 @@ front_porch_options = "Options: climb onto chair, dig in potted plant, search th
 circle_description1 = "The tree is pretty old. There is a little bit of a dip on the street side of the tree. Is that a nut in the cranny between the root and the soil?"
 circle_description2 = "The tree is pretty old. There is a bit of a dip on the side of the tree."
 dig_description1 = "There is a bit of disturbed earth. You dig with your little paws and find a nice fresh nut waiting for you."
-dig_description2 = "You look at the little pile of dirt you just dug in. It seems like you found the nut already."
+dig_description2 = "You look at the little pile of dirt you just dug in. It seems like you searched here already."
 
 frontporch_chair1 = "You hop up onto the chair sitting on the front porch. Woo! It's a rocking chair! The motion freaks you out and you jump down."
 frontporch_chair2 = "You try again. This time you're ready for the movement. Looking around, you notice a nut sitting on the coffee table next to the chair. Score!"
 frontporch_chair3 = "You hop on the chair and wiggle around, making it rock back and forth wildly. You're such a crazy little squirrel!"
+
+frontporch_dig1 = "You lean into the edge of the pot and begin digging, hoping to find a nice big nut! Suddenly, the front door flies open and a big, hairless monster comes right for you. It's shouting something at you. You are terrified and run back to your nest."
