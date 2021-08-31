@@ -38,7 +38,7 @@ flowerbed7 = ""
 flowerbed8 = ""
 
 bushes_welcome = ""
-bushes_options = "You see a nut peeking out of the chipmunk nest. Do you want to try to steal it? Yes or No?
+bushes_options = "You see a nut peeking out of the chipmunk nest. Do you want to try to steal it? Yes or No?"
 
 backyard_welcome = ""
 backyard_options = ""
