@@ -1,3 +1,5 @@
+import random
+
 def NotAChoice(action):
     print('\n', '*' * 12)
     print(f"{action} is not a choice, silly!")
@@ -9,6 +11,15 @@ def BacktoNest():
 def CheckStash(nut_stash):
     print('\n', '*' * 12, '\n')
     print(f"You have {len(nut_stash)} nuts in your stash")
+    
+def IsNut():
+    random.seed()
+    a = random.randint(0, 15)
+    
+    if (a % 3) == 0:
+        return True
+    else:
+        return False
 
 def FindaNut(stash):
     #Need to add a random chance of finding a nut
