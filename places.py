@@ -49,7 +49,11 @@ class Tree1(object):
         if 'circle' in action:
             if area_searched.tree1_circle == False:
                 print('\n', '*' * 12, '\n', phrases.circle_description1)
-                actions.FindaNut(stash)
+                avail_nut = IsNut()
+                if avail_nut:
+                    actions.FindaNut(stash)
+                else:
+                    pass
                 area_searched.tree1_circle = True
             else:
                 print('\n', '*' * 12, '\n', phrases.circle_description2)    
