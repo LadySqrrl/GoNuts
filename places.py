@@ -1,6 +1,6 @@
 import actions
 import phrases
-import avail_nut
+import area_searched
 
 class Nest(object):
     def enter(self, stash):
@@ -47,17 +47,17 @@ class Tree1(object):
         action = input("\n>> ")
 
         if 'circle' in action:
-            if avail_nut.tree1_circle == True:
+            if area_searched.tree1_circle == False:
                 print('\n', '*' * 12, '\n', phrases.circle_description1)
                 actions.FindaNut(stash)
-                avail_nut.tree1_circle = False
+                area_searched.tree1_circle = True
             else:
                 print('\n', '*' * 12, '\n', phrases.circle_description2)    
         elif 'dig' in action:
-            if avail_nut.tree1_dig == True:
+            if area_searched.tree1_dig == False:
                 print('\n', '*' * 12, '\n', phrases.dig_description1)
                 actions.FindaNut(stash)
-                avail_nut.tree1_dig = False
+                area_searched.tree1_dig = True
             else:
                 print('\n', '*' * 12, '\n', phrases.dig_description2)
         elif 'climb' in action:
@@ -82,10 +82,10 @@ class FrontPorch(object):
             print('\n', '*' * 12, '\n', "Would you like to jump up again? Yes or No?")
             jump_again = input("\n>> ")
             if jump_again == "Yes" or jump_again == "yes" or jump_again == 'y': 
-                if avail_nut.frontporch_chair == True:
+                if area_searched.frontporch_chair == False:
                     print('\n', '*' * 12, '\n', phrases.frontporch_chair2)
                     actions.FindaNut(stash)
-                    avail_nut.frontporch_chair = False
+                    area_searched.frontporch_chair = True
                 else:
                     print('\n', '*' * 12, '\n', phrases.circle_description2)
             else:
