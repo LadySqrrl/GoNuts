@@ -24,7 +24,7 @@ class FrontYard(object):
         print(phrases.front_yard_options)
 
         action = input("\n>> ")
-
+        
         if action == 'tree':
             return 'tree_1'
         elif action == 'front porch':
